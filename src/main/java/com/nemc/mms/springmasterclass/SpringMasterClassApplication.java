@@ -3,6 +3,8 @@ package com.nemc.mms.springmasterclass;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.Set;
+
 @SpringBootApplication
 public class SpringMasterClassApplication {
 
@@ -11,3 +13,10 @@ public class SpringMasterClassApplication {
     }
 
 }
+
+// properties -- yaml basic
+// profiles -- dev, prod, test
+// configuration properties -- @ConfigurationProperties --> @Value
+// maven package manager -->  properties
+// rest-end-poinst
+// validation jakarta

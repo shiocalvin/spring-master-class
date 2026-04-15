@@ -1,7 +1,26 @@
 spring:
   application:
     name: spring-master-class
-
+  profiles:
+    active: local
 
 server:
-  port: 7080
+  port: 7080 # 8080
+  servlet:
+    context-path: /mms-application/api/v1
+
+
+master-class:
+  integrations:
+    mgov:
+      base-url: http://localhost:8080/mgov/api/v1
+      send-sms-endpoint: /send-sms
+#      timeOut: 5000 # in milliseconds
+
+    gepg:
+      base-url: http://localhost:8080/gepg/api/v1
+      request-control-number: /control-number
+      request-recon: /recon/status
+
+
+# get users /mms-application/api/v1/users/get-all

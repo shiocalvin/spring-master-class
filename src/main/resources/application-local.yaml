@@ -1,0 +1,4 @@
+master-class:
+  integrations:
+    mgov:
+      base-url: http://192.176.89.12:8080/mgov/api/v1
