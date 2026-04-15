@@ -1,3 +1,7 @@
 spring:
   application:
     name: spring-master-class
+
+
+server:
+  port: 7080
